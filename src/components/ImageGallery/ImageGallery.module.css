@@ -1,0 +1,19 @@
+.list {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.item {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.warning {
+  text-align: center;
+  color: rgb(78, 22, 85);
+}

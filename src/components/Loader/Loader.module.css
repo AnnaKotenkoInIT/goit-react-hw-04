@@ -1,0 +1,13 @@
+.loaderContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loadingText {
+  margin-top: 10px;
+  color: #902795;
+  font-size: 18px;
+  text-align: center;
+}

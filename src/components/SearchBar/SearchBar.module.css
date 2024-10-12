@@ -1,0 +1,52 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #b062d3;
+  border-radius: 12px;
+}
+
+.inputWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.btn {
+  padding: 5px;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+}
+
+.icon {
+  color: #602177;
+}
+
+.input {
+  height: 40px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(124, 12, 204);
+  outline: none;
+  font-size: 16px;
+}
